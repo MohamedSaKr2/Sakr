@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="منتجات طبيعية, منتجات طبيعية صحية, منتجات طبيعية صحية سورية, منتجات طبيعية صحية سورية حلوة, منتجات طبيعية صحية سورية حلوة, طبيعية">
+    <meta name="description" content="منتجات طبيعية صحية سورية حلوة طبيعية">
+    <link rel="icon" type="image/x-icon" href="/includes/images/favicon.png">
+    <meta name="generator" content="Hey dev team">
+    <link rel="stylesheet" href="includes/css/cart.css">
+    <link rel="stylesheet" href="../مكتباتى/library work.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="includes/library/fontawesome-free-6.6.0-web/css/all.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <input type="text" placeholder="Search..." class="search-bar">
+            <div class="header-icons">
+                <span class="icon"><i class="fa-regular fa-bell fa-lg"></i>
+                </span>
+                <span class="icon"><i class="fa-solid fa-user fa-lg"></i></span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="cart-page">
+            <!-- Shopping Bag Section -->
+            <section class="shopping-bag">
+                <h1>Shopping Bag</h1>
+                <p>2 items in your bag.</p>
+                
+                <!-- Product Items -->
+                <div class="product-item">
+                    <img src="includes/image/close.webp" alt="Product 1" class="product-image">
+                    <div class="product-details">
+                        <h2>Floral Print Wrap Dress</h2>
+                        <p>Color: Black & White • Size: 42</p>
+                        <p>Price: $20.50</p>
+                        <div class="quantity">
+                            Quantity: <input type="number" value="2">
+                        </div>
+                        <p class="total-price">Total: $41.00</p>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <img src="includes/image/close2.webp" alt="Product 2" class="product-image">
+                    <div class="product-details">
+                        <h2>Floral Print Wrap Dress</h2>
+                        <p>Color: Red • Size: 42</p>
+                        <p>Price: $30.50</p>
+                        <div class="quantity">
+                            Quantity: <input type="number" value="1">
+                        </div>
+                        <p class="total-price">Total: $30.50</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Summary Section -->
+            <section class="cart-summary">
+                <h2>Calculated Shipping</h2>
+                <label for="country">Country</label>
+                <select id="country">
+                    <option value="USA">Cairo</option>
+                    <option value="Canada">Alex</option>
+                    <option value="Canada">Tanta</option>
+                    <option value="Canada">Mansora</option>
+                    <option value="Canada">Madroh</option>
+                </select>
+
+                <label for="city">State / City</label>
+                <input type="text" id="city" placeholder="Enter city">
+
+                <label for="zip">ZIP Code</label>
+                <input type="text" id="zip" placeholder="Enter ZIP Code">
+
+                <button class="update-button button-basic">Update</button>
+
+                <h2>Coupon Code</h2>
+                <input type="text" placeholder="Enter coupon code">
+                <button class="apply-button button-basic">Apply</button>
+
+                <div class="cart-total">
+                    <p>Cart Subtotal: $71.50</p>
+                    <p>Discount: $4.00</p>
+                    <p><strong>Cart Total: $67.50</strong></p>
+                </div>
+                <button class="checkout-button button-basic">Checkout</button>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-info">
+                <p>Free Shipping on orders $50+</p>
+                <p>Call Us Anytime: +34 555 5555</p>
+                <p>24/7 Chat Support</p>
+                <p>Gift Cards Available</p>
+            </div>
+        </footer>
+    </div>
+
+   <script src="includes/js/cart.js"></script>
+    
+</body>
+</html>
